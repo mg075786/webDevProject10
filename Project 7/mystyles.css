@@ -113,7 +113,7 @@ a:visited {
 header {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
     width: 900px;
     background-color: #fff;
@@ -121,7 +121,17 @@ header {
     border-style: solid;
     border-width: 3px;
     padding: 3px 4px;
+    align-items: center;
     
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+    align-items: center;
 }
 
 section {
